@@ -1,0 +1,44 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Environment variables (CRITICAL - contains API keys)
+.env
+.env.local
+
+# FAISS indexes (generated locally, can be large)
+faiss_indexes/
+
+# Temporary files
+temp_pdf.pdf
+*.tmp
+
+# Personal/Assignment files
+assignment.md
+Assignement_humanli.ai.pdf
+context.md
+progress.md
+
+# Test files
+test_*.py
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
